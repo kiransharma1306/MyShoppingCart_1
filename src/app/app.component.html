@@ -1,0 +1,17 @@
+<h1 align="center" class="h1"> Welcome To MyShoppingCart <button mat-fab class="tab">Login</button>  
+  <button mat-fab class="tab1">SignUp</button> </h1>
+  
+<mat-drawer-container class="example-container" align="center">
+<mat-drawer mode="side" opened> 
+  <p class="p"><nav><a [routerLink]="['/MensClothing']" routerLinkActive="active" >Men's Clothing</a></nav><img src="/assets/Capture.JPG" style="width:20px;height:20px;"/><p>
+  <p class="p"><a href ='' class="a" >Women's Clothing</a><p>
+  <p class="p"><a href ='' class="a" >Kids Clothing</a><p>
+  <p class="p"><a href ='' class="a" >Footwear Clothing</a><p>
+</mat-drawer>
+<mat-drawer-content>
+<br/><br/><p>Shop Now!!</p><marquee direction="left"><img src="/assets/Mainpage.JPG" style="width:500px;height:250px;"></marquee>
+<p><marquee direction="right">Get 200 cash back on PayTm Now!!</marquee></p>
+</mat-drawer-content>
+</mat-drawer-container>
+<router-outlet></router-outlet>
+<app-mens-clothing></app-mens-clothing>
