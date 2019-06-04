@@ -1,0 +1,16 @@
+.tab1 {position:absolute;left:100px; }
+.tab2 {position:absolute;left:400px; }
+.tab3 {position:absolute;left:700px; }
+.tab4 {position:absolute;left:1000px; }
+
+.fontclass{
+
+    color:blueviolet;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table1 {
+    width: 100%;
+  }
+  

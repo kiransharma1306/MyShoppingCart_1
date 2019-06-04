@@ -12,12 +12,14 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DemoMaterialModule} from './material-module';
 import { MensClothingComponent } from './mens-clothing/mens-clothing.component';
+import { HomeComponentComponent } from './home-component/home-component.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MensClothingComponent,
+    HomeComponentComponent,
     
   ],
   imports: [
